@@ -451,7 +451,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "clock divider.kicad_pro",
+    "filename": "XR-2208.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -611,7 +611,7 @@
   },
   "sheets": [
     [
-      "9f4f766a-aa72-41a7-8816-ef3a3201022d",
+      "5303248d-0182-481b-9008-d3045602d71e",
       "Root"
     ]
   ],
