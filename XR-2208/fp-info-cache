@@ -1,4 +1,4 @@
-26564534542671549
+26566305696812301
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -96270,6 +96270,13 @@ rotary encoder illuminated switch vertical
 0
 9
 8
+SW_CK_JS202011CQN_DPDT_Straight
+SW_CK_JS202011CQN_DPDT_Straight
+C&K sub miniature slide switch, JS series, DPDT, right angle, http://www.ckswitches.com/media/1422/js.pdf
+switch DPDT
+0
+6
+6
 Sensor
 ASAIR_AM2302_P2.54mm_Lead2.75mm_TabDown
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/AM2302.pdf
