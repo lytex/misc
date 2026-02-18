@@ -1377,6 +1377,18 @@
 		(uuid "1cd29071-bb6c-4b88-ac31-7af86455561b")
 	)
 	(junction
+		(at 158.75 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3818fbeb-0f1a-41d4-a047-e7ce716f868a")
+	)
+	(junction
+		(at 158.75 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4bade84c-29f3-41b2-8246-bb90893336dd")
+	)
+	(junction
 		(at 66.04 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1411,6 +1423,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c30f1f53-b0b1-4896-a7da-a724720793bf")
+	)
+	(junction
+		(at 158.75 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c7debb53-52ff-43d2-9326-8d12bb8c767a")
 	)
 	(junction
 		(at 158.75 76.2)
@@ -1505,6 +1523,16 @@
 			(type default)
 		)
 		(uuid "3fff28b9-62ab-481b-a89c-855a9730b822")
+	)
+	(wire
+		(pts
+			(xy 146.05 43.18) (xy 158.75 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "424988c2-af47-4ee7-9997-6d329d44dbbe")
 	)
 	(wire
 		(pts
@@ -1858,6 +1886,16 @@
 	)
 	(wire
 		(pts
+			(xy 146.05 49.53) (xy 158.75 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0736299-12a1-4c28-9c9f-33cf3f20c171")
+	)
+	(wire
+		(pts
 			(xy 101.6 52.07) (xy 102.87 52.07)
 		)
 		(stroke
@@ -1895,6 +1933,16 @@
 			(type default)
 		)
 		(uuid "faa863b1-9d52-4b9b-8e6a-35dfe7e69e29")
+	)
+	(wire
+		(pts
+			(xy 146.05 55.88) (xy 158.75 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbe7b23b-1757-49b1-ad9b-4d379be1bdba")
 	)
 	(wire
 		(pts
@@ -1973,6 +2021,71 @@
 			(project "XR-2208"
 				(path "/5303248d-0182-481b-9008-d3045602d71e"
 					(reference "RV2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 158.75 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0a4d7704-7d2c-4a04-bbe5-d2b24f31231a")
+		(property "Reference" "#PWR010"
+			(at 158.75 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 161.29 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 158.75 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 158.75 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4d8b3f83-e81f-48e8-b0c2-c7759800e110")
+		)
+		(instances
+			(project "XR-2208"
+				(path "/5303248d-0182-481b-9008-d3045602d71e"
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -2578,6 +2691,138 @@
 			(project "XR-2208"
 				(path "/5303248d-0182-481b-9008-d3045602d71e"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VEE")
+		(at 158.75 55.88 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "74d7e097-56ca-4199-b804-c1804807a17a")
+		(property "Reference" "#PWR09"
+			(at 158.75 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VEE"
+			(at 156.21 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 158.75 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VEE\""
+			(at 158.75 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1b6bf34a-3191-4223-9128-85b0145fd58e")
+		)
+		(instances
+			(project "XR-2208"
+				(path "/5303248d-0182-481b-9008-d3045602d71e"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_02x01")
+		(at 151.13 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "759bc2fc-cc20-4096-968a-0d273265c000")
+		(property "Reference" "J6"
+			(at 156.464 52.832 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VEE"
+			(at 152.4 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x01_P2.54mm_Vertical"
+			(at 151.13 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 151.13 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, double row, 02x01, this symbol is compatible with counter-clockwise, top-bottom and odd-even numbering schemes., script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 151.13 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "faa55826-43fc-4a9e-9ea0-5ee35c8f1909")
+		)
+		(pin "2"
+			(uuid "f903468a-d429-403b-93d8-b145db34894a")
+		)
+		(instances
+			(project "XR-2208"
+				(path "/5303248d-0182-481b-9008-d3045602d71e"
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -3275,6 +3520,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_02x01")
+		(at 151.13 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c1f8873a-087f-4d18-8c74-28c5aebe6d75")
+		(property "Reference" "J4"
+			(at 156.464 40.132 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC"
+			(at 152.4 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x01_P2.54mm_Vertical"
+			(at 151.13 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 151.13 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, double row, 02x01, this symbol is compatible with counter-clockwise, top-bottom and odd-even numbering schemes., script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 151.13 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f24465af-5ed4-48d3-874f-051382db6248")
+		)
+		(pin "2"
+			(uuid "8518237a-c467-4aa9-b733-f4e505ff8359")
+		)
+		(instances
+			(project "XR-2208"
+				(path "/5303248d-0182-481b-9008-d3045602d71e"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Potentiometer_Small")
 		(at 93.98 52.07 0)
 		(unit 1)
@@ -3544,6 +3856,139 @@
 			(project ""
 				(path "/5303248d-0182-481b-9008-d3045602d71e"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 158.75 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ee8f2269-5f40-4cd3-826b-52ce22ac921f")
+		(property "Reference" "#PWR03"
+			(at 158.75 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 158.75 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 158.75 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 158.75 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6a3b0660-ec7a-4afe-9628-d7af40a537f1")
+		)
+		(instances
+			(project "XR-2208"
+				(path "/5303248d-0182-481b-9008-d3045602d71e"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_02x01")
+		(at 151.13 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f0458e50-e3f5-40f2-87d0-c73a3d07e268")
+		(property "Reference" "J5"
+			(at 156.464 46.482 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 152.4 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x01_P2.54mm_Vertical"
+			(at 151.13 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 151.13 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, double row, 02x01, this symbol is compatible with counter-clockwise, top-bottom and odd-even numbering schemes., script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 151.13 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "63da3701-f756-4089-9333-0fc812ca62de")
+		)
+		(pin "2"
+			(uuid "3a0e9220-a9c0-4a09-b691-744d29b5fa04")
+		)
+		(instances
+			(project "XR-2208"
+				(path "/5303248d-0182-481b-9008-d3045602d71e"
+					(reference "J5")
 					(unit 1)
 				)
 			)
