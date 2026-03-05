@@ -839,6 +839,170 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:R_Potentiometer"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "RV"
+				(at -4.445 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R_Potentiometer"
+				(at -2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Potentiometer"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "resistor variable"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Potentiometer*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Potentiometer_0_1"
+				(rectangle
+					(start 1.016 2.54)
+					(end -1.016 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.143 0) (xy 2.286 0.508) (xy 2.286 -0.508) (xy 1.143 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 1.524 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Potentiometer_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R_Potentiometer_Dual_Separate"
 			(pin_names
 				(offset 1.016)
@@ -1311,6 +1475,12 @@
 		(uuid "3062f2db-4e03-48e7-b07c-2f1221d0545f")
 	)
 	(junction
+		(at 95.25 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "36e3f490-3a89-4791-a21b-a9e9530d59d6")
+	)
+	(junction
 		(at 124.46 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1333,6 +1503,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5c0a8cee-b8e4-426c-8c9c-7f92f456149c")
+	)
+	(junction
+		(at 91.44 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8d725ada-6e89-4aab-a76b-c8b5ce391917")
 	)
 	(junction
 		(at 166.37 128.27)
@@ -1383,6 +1559,12 @@
 		(uuid "ce30ebd3-6587-47b4-81ef-97d824de6a71")
 	)
 	(junction
+		(at 110.49 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "de60c6cd-a678-4218-8492-fb5c490c229c")
+	)
+	(junction
 		(at 224.79 20.32)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1427,6 +1609,16 @@
 			(type default)
 		)
 		(uuid "2ded7fd6-2fbd-4d96-b1d4-8698fbb7bb45")
+	)
+	(wire
+		(pts
+			(xy 102.87 147.32) (xy 110.49 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "303eab5d-3dce-44c7-89e5-fa779cafea13")
 	)
 	(wire
 		(pts
@@ -1480,6 +1672,16 @@
 	)
 	(wire
 		(pts
+			(xy 95.25 143.51) (xy 99.06 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4af075de-d00f-4c73-a1d4-59cf630a3954")
+	)
+	(wire
+		(pts
 			(xy 91.44 128.27) (xy 104.14 128.27)
 		)
 		(stroke
@@ -1520,6 +1722,16 @@
 	)
 	(wire
 		(pts
+			(xy 110.49 147.32) (xy 110.49 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59e55db4-37b1-4ea7-8639-fa44e7982a1f")
+	)
+	(wire
+		(pts
 			(xy 39.37 109.22) (xy 52.07 109.22)
 		)
 		(stroke
@@ -1540,7 +1752,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 135.89) (xy 124.46 135.89)
+			(xy 106.68 135.89) (xy 110.49 135.89)
 		)
 		(stroke
 			(width 0)
@@ -1577,6 +1789,16 @@
 			(type default)
 		)
 		(uuid "776d08d5-a33a-4f29-b77e-28b2c768d864")
+	)
+	(wire
+		(pts
+			(xy 91.44 147.32) (xy 91.44 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "777014e9-b077-4bc9-9c02-7758d2860484")
 	)
 	(wire
 		(pts
@@ -1690,6 +1912,16 @@
 	)
 	(wire
 		(pts
+			(xy 110.49 135.89) (xy 124.46 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9b5bf6b-a5d9-47a8-974a-1df7dc3ea84d")
+	)
+	(wire
+		(pts
 			(xy 130.81 105.41) (xy 134.62 105.41)
 		)
 		(stroke
@@ -1717,6 +1949,16 @@
 			(type default)
 		)
 		(uuid "dfe4cbc0-92ad-4c25-a8a9-a12a7cfcce9c")
+	)
+	(wire
+		(pts
+			(xy 95.25 147.32) (xy 95.25 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0c4dd04-64cb-46cd-a196-290885263910")
 	)
 	(wire
 		(pts
@@ -1787,6 +2029,16 @@
 			(type default)
 		)
 		(uuid "fdbb2e2c-9db3-40b0-9743-cba5d6bde90a")
+	)
+	(wire
+		(pts
+			(xy 95.25 147.32) (xy 91.44 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff6f84a3-e197-4ff4-ab84-ea6112393654")
 	)
 	(symbol
 		(lib_id "Device:R_Potentiometer_Dual_Separate")
@@ -1930,6 +2182,76 @@
 			(project ""
 				(path "/1f3e0410-067a-4835-97d6-4663e9beff54"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Potentiometer")
+		(at 99.06 147.32 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "108d0042-f7fd-4c7b-975f-58696aa27623")
+		(property "Reference" "RV2"
+			(at 99.314 150.368 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k"
+			(at 98.806 147.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Alps_RK163_Single_Horizontal"
+			(at 99.06 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 99.06 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Potentiometer"
+			(at 99.06 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "5981da73-38a6-48b4-8f23-d2a07e8b15ce")
+		)
+		(pin "2"
+			(uuid "74ddaee3-cfce-48fb-a63b-e9b3f075363d")
+		)
+		(pin "1"
+			(uuid "54b29c9c-1fae-44f2-9b07-ffef0ee75075")
+		)
+		(instances
+			(project ""
+				(path "/1f3e0410-067a-4835-97d6-4663e9beff54"
+					(reference "RV2")
 					(unit 1)
 				)
 			)
